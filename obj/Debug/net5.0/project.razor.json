@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -417502281,
-        "Kind": "Components.Component",
-        "Name": "GamesIMightPlay.Pages.Counter",
-        "AssemblyName": "GamesIMightPlay",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GamesIMightPlay.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1511499014,
-        "Kind": "Components.Component",
-        "Name": "GamesIMightPlay.Pages.Counter",
-        "AssemblyName": "GamesIMightPlay",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GamesIMightPlay.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GamesIMightPlay.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1641829517,
-        "Kind": "Components.Component",
-        "Name": "GamesIMightPlay.Pages.FetchData",
-        "AssemblyName": "GamesIMightPlay",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GamesIMightPlay.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1197999824,
-        "Kind": "Components.Component",
-        "Name": "GamesIMightPlay.Pages.FetchData",
-        "AssemblyName": "GamesIMightPlay",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GamesIMightPlay.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GamesIMightPlay.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1360595922,
         "Kind": "Components.Component",
         "Name": "GamesIMightPlay.Pages.Index",
@@ -111,6 +45,39 @@
         }
       },
       {
+        "HashCode": -785648085,
+        "Kind": "Components.Component",
+        "Name": "GamesIMightPlay.Pages.UsersViewer",
+        "AssemblyName": "GamesIMightPlay",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UsersViewer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "GamesIMightPlay.Pages.UsersViewer"
+        }
+      },
+      {
+        "HashCode": 811357010,
+        "Kind": "Components.Component",
+        "Name": "GamesIMightPlay.Pages.UsersViewer",
+        "AssemblyName": "GamesIMightPlay",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GamesIMightPlay.Pages.UsersViewer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "GamesIMightPlay.Pages.UsersViewer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1826192999,
         "Kind": "Components.Component",
         "Name": "GamesIMightPlay.App",
@@ -140,59 +107,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "GamesIMightPlay.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1548812295,
-        "Kind": "Components.Component",
-        "Name": "GamesIMightPlay.Shared.SurveyPrompt",
-        "AssemblyName": "GamesIMightPlay",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GamesIMightPlay.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -992494853,
-        "Kind": "Components.Component",
-        "Name": "GamesIMightPlay.Shared.SurveyPrompt",
-        "AssemblyName": "GamesIMightPlay",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GamesIMightPlay.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GamesIMightPlay.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,6 +203,59 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "GamesIMightPlay.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1548812295,
+        "Kind": "Components.Component",
+        "Name": "GamesIMightPlay.Shared.SurveyPrompt",
+        "AssemblyName": "GamesIMightPlay",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "GamesIMightPlay.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -992494853,
+        "Kind": "Components.Component",
+        "Name": "GamesIMightPlay.Shared.SurveyPrompt",
+        "AssemblyName": "GamesIMightPlay",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GamesIMightPlay.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "GamesIMightPlay.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15958,8 +15925,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\alex_\\OneDrive\\Documents\\GitHub\\GamesIMightPlay\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
+      "FilePath": "c:\\Users\\alex_\\OneDrive\\Documents\\GitHub\\GamesIMightPlay\\Pages\\UsersViewer.razor",
+      "TargetPath": "Pages\\UsersViewer.razor",
       "FileKind": "component"
     },
     {
@@ -15976,11 +15943,6 @@
       "FilePath": "c:\\Users\\alex_\\OneDrive\\Documents\\GitHub\\GamesIMightPlay\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alex_\\OneDrive\\Documents\\GitHub\\GamesIMightPlay\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"

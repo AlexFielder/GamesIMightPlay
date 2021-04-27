@@ -9,8 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using GamesIMightPlay.Data;
 
-namespace GIMPManager
+namespace GamesIMightPlay
 {
     public class Startup
     {
@@ -27,7 +28,7 @@ namespace GIMPManager
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<GIMPManager.Data.GIMPService>();
+            services.AddSingleton<GIMPService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

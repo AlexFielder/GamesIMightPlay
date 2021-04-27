@@ -2,7 +2,7 @@ using System;
 
 using System.Collections.Generic;
 
-namespace GIMPManager.Data
+namespace GamesIMightPlay.Data
 {
     public class GIMPItem
     {
@@ -19,5 +19,6 @@ namespace GIMPManager.Data
     {
         public string gameId {get; set; }
         public DateTime WillPlay {get; set; }
+        public DateTime LastPlayed {get; set; }
     }
 }

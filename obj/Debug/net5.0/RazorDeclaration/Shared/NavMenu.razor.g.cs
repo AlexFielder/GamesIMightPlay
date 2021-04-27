@@ -90,7 +90,7 @@ using GamesIMightPlay.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "c:\Users\alex_\OneDrive\Documents\GitHub\GamesIMightPlay\Shared\NavMenu.razor"
+#line 23 "c:\Users\alex_\OneDrive\Documents\GitHub\GamesIMightPlay\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
