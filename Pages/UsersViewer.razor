@@ -1,0 +1,53 @@
+// Pages/UsersViewer.razor
+
+@page "/usersViewer"
+
+@using GIMPManager.Data
+
+@inject GIMPService GIMPRepository
+
+<h1>Check your users!</h1>
+
+<p>Something Something is "Missing..."</p>
+
+@if (user == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    int userIndex = 0;
+    @foreach (var userItem in user)
+    {
+        <section>
+            <h3>@userItem.User</h3>
+            
+        </section>
+        userIndex++;
+    }
+}
+
+@code {
+    List<GIMPItem> user;
+    List<int> quizScores = new List<int>();
+    int currentScore = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        user = await GIMPRepository.GetGIMPAsync();
+    }
+
+    @* void UpdateScore(int chosenAnswerIndex, int userIndex)
+    {
+        var GIMPItem = user[userIndex];
+
+        if (chosenAnswerIndex == GIMPItem.Games)
+        {
+            quizScores[userIndex] = GIMPItem.Games;
+        } else
+        {
+            quizScores[userIndex] = 0;
+        }
+        currentScore = quizScores.Sum();
+    } *@
+}
