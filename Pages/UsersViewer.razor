@@ -4,7 +4,7 @@
 
 @using GamesIMightPlay.Data
 
-@inject GIMPService GIMPRepository
+@inject GamesIMightPlayService GIMPRepository
 
 <h1>Check your users!</h1>
 
@@ -28,7 +28,7 @@ else
 }
 
 @code {
-    List<GIMPItem> user;
+    List<GamesIMightPlayItem> user;
     List<int> quizScores = new List<int>();
     int currentScore = 0;
 

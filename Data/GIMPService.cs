@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace GamesIMightPlay.Data
 {
-    public class GIMPService
+    public class GamesIMightPlayService
     {
-        private static readonly List<GIMPItem> Users;
+        private static readonly List<GamesIMightPlayItem> Users;
 
-        static GIMPService()
+        static GamesIMightPlayService()
         {
-            Users = new List<GIMPItem> {
+            Users = new List<GamesIMightPlayItem> {
 
-                new GIMPItem
+                new GamesIMightPlayItem
                 {
                     User = "randomString",
                     Games = new List<Game> {
@@ -31,7 +31,7 @@ namespace GamesIMightPlay.Data
                     }
                 },
 
-                new GIMPItem
+                new GamesIMightPlayItem
                 {
                     User = "anotherRandomString",
                     Games = new List<Game> {
@@ -50,7 +50,7 @@ namespace GamesIMightPlay.Data
             };
         }
 
-        public Task<List<GIMPItem>> GetGIMPAsync()
+        public Task<List<GamesIMightPlayItem>> GetGIMPAsync()
         {
             return Task.FromResult(Users);
         }
